@@ -1,41 +1,39 @@
 import React from "react"
 import "../Card/Card.css"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import imgFelipe from "../../images/felipe.jpg";
-
+import {imgFelipe2,imgAndres,imgJacko,imgKitty} from "../ExportImage"
 
 const CardStyle = () => {
   return(
-    <div class="container">
-
-    <div class="row">
-      <div class="col-3">
-        <img src="" alt="" />
+    <div className="main-container">
+      <div className="row">
+        <div className="col">
+          <img className="tamañoFoto"
+            src={imgFelipe2}
+            alt="lfmr"
+          />
+        </div>
+        <div className="col">
+          <img className="tamañoFoto"
+            src={imgAndres}
+            alt="jamr"
+          />
+        </div>
+        <div className="col">
+        <img className="tamañoFoto"
+          src={imgJacko}
+          alt="jack"
+          />
+        </div>
+        <div className="col">
+          <img className="tamañoFoto"
+            src={imgKitty}
+            alt="kitty"
+          />
+        </div>
       </div>
-      <div class="col-3">
-        <img src="" alt="" />
-      </div>
-      <div class="col-3">
-       <img src="" alt="" />
-      </div>
-      <div clas="col-3">
-        <img src="" alt="" />
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <img src={imgFelipe} alt="LFMR" />
-      </div>
-      <div class="col-5">
-        <img src="../../images/andres.jpg" alt="JAMR" />
-      </div>
-      <div class="col">
-        3 of 3
-      </div>
-    </div>
-  </div>
+    </div>  
   )
-
 }
 
 export default CardStyle

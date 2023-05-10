@@ -18,10 +18,12 @@
     "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
     "grid": "^4.10.8",
+    "node.js": "^0.0.1-security",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
     "react-dom": "^18.2.0",
-    "styled-components": "^5.3.10"
+    "styled-components": "^5.3.10",
+    "webpack": "^5.82.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
