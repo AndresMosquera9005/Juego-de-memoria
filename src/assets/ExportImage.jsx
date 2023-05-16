@@ -8,5 +8,6 @@ import imgOscar from "../assets/images/oscard.jpg";
 import imgPapa from "../assets/images/papa.jpg";
 import imgLuidFelipe from "../assets/images/luisfelipe.jpg"
 import imgandru from "../assets/images/andru.jpg"
+import noImage from "../assets/images/no-image.jpg"
 
-export {imgFelipe2,imgAndres,imgJacko,imgKitty,imgRambo,imgMama,imgOscar,imgPapa,imgLuidFelipe,imgandru} ;
+export {imgFelipe2,imgAndres,imgJacko,imgKitty,imgRambo,imgMama,imgOscar,imgPapa,imgLuidFelipe,imgandru,noImage} ;

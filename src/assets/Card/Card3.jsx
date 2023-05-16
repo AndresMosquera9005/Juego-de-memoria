@@ -4,7 +4,7 @@ import "../Card/Card.css";
 import VerImagen from "./VerImagen";
 import { imgFelipe2, imgAndres, imgJacko, imgKitty , noImage } from "../ExportImage";
 
-const CardStyle = () => {
+const Card3 = () => {
 
   const [Imagen1,CambiarImagen1] = useState(noImage)
   const [Imagen2,CambiarImagen2] = useState(noImage)
@@ -31,4 +31,4 @@ const CardStyle = () => {
   );
 };
 
-export default CardStyle;
+export default Card3;

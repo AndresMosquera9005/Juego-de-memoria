@@ -1,18 +1,25 @@
 .main-container{
-    margin-left: 100px;
+    margin-left: 0px;
     margin-right: 10px;
+    background: #ccc;
 }
 
 img{
     width: 100px;
-    margin-left: 10px;
+    margin-left: 100px;
     margin-top: 10px;
     margin-right: 10px; 
     margin-bottom: 10px;
     border-radius: 10px;
+    height: 132px;
 }
 
-.tamañoFoto {
-    width: 100px;
-    height: 132px;
+.felipe {
+    background: black;
+    z-index: 100;
+    visibility: visible;
+}
+
+.button {
+    margin-left: 80px;
 }
