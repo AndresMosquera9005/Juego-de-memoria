@@ -10,6 +10,7 @@ const CardStyle = () => {
   const [Imagen2,CambiarImagen2] = useState(noImage)
   const [Imagen3,CambiarImagen3] = useState(noImage)
   const [Imagen4,CambiarImagen4] = useState(noImage)
+  const [Nombre,CambiarNombre] = useState("felipe")
 
   return (
     <div className="main-container">
